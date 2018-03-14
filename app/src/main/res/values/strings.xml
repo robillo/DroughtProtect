@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Drought Protect</string>
+    <string name="hint_email">robinkamboj975@gmail.com</string>
+    <string name="hint_password">Abcd1!@</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="go_to_register">Not Registered? Please Register First</string>
+    <string name="go_to_login">Already A Member? Login</string>
+</resources>
