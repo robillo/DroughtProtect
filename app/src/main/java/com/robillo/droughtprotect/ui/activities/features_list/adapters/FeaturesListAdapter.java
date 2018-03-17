@@ -52,7 +52,7 @@ public class FeaturesListAdapter extends RecyclerView.Adapter<FeaturesListAdapte
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                context.startActivity(intents.get(pos));
+//                context.startActivity(intents.get(pos));
             }
         });
 

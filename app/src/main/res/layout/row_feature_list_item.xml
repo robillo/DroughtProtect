@@ -14,11 +14,12 @@
         <TextView
             android:layout_width="0sp"
             android:layout_height="?attr/actionBarSize"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="15sp"
-            tools:text="Title Text"
             android:textColor="@color/colorTextOne"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="15sp"
+            android:layout_gravity="center_vertical"
+            tools:text="Title Text"
             android:textSize="22sp"
             android:id="@+id/text"/>
 

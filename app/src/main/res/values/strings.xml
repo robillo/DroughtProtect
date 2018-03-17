@@ -25,6 +25,17 @@
         <item>Interactive HeatMaps</item>
     </array>
 
+    <array name="array_urls">
+        <item>Water Level Checks</item>
+        <item>Flood prediction</item>
+        <item>Wildlife Checks</item>
+        <item>Aquatic life Checks</item>
+        <item>Forest fire predictor</item>
+        <item>Soil quality check</item>
+        <item>Drought Trends</item>
+        <item>Interactive HeatMaps</item>
+    </array>
+
     <array name="feature_descriptions">
         <item>By checking the water level of a particular area we can help farmers deciding the best
             crop suited for their farm

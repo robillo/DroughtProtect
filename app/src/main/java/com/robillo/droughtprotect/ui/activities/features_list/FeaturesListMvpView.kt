@@ -4,4 +4,7 @@ interface FeaturesListMvpView {
 
     fun setup()
 
+    fun inflateListFeatures()
+
+    fun inflateListIntents()
 }
