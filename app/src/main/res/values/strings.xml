@@ -11,4 +11,81 @@
     <string name="email_id">Email Id:</string>
     <string name="password">Password:</string>
     <string name="confirm_password">Confirm Password:</string>
+    <string name="features_list">Features List</string>
+    <string name="information_regarding_feature">Information Regarding Feature</string>
+
+    <array name="feature_headers">
+        <item>Water Level Checks</item>
+        <item>Flood prediction</item>
+        <item>Wildlife Checks</item>
+        <item>Aquatic life Checks</item>
+        <item>Forest fire predictor</item>
+        <item>Soil quality check</item>
+        <item>Drought Trends</item>
+        <item>Interactive HeatMaps</item>
+    </array>
+
+    <array name="feature_descriptions">
+        <item>By checking the water level of a particular area we can help farmers deciding the best
+            crop suited for their farm
+            ● Datasets required will be of past ground water level of various location which is
+            available easily
+            ● Show the water level with the help of graphs and need not be interactive
+            ● Now from the water level data find the crops which are suitable for that particular
+            ground water level, application should show suggestion of crops best suited for that
+            water level
+            ● If possible create a window in which the get a map of india and when the user zoom
+            into selected areas he can get the water level and the crops suitable for that
+            particular region,
+            else just create the the ground water level graph for regions in which the major farming
+            happens in india,
+            like punjab, deccan plateau and north-east side
+        </item>
+        <item>The application should be able to predict the occurrence of flood by previous data,
+            and flood prediction should be limited to flood prone areas
+            ● Datasets required here will be of past flood data of various regions and water level
+            of water bodies located in the flood prone areas
+            ● Use heatmaps to show flood prone areas
+        </item>
+        <item>We can see how the wildlife of a particular area gets affected when a drought or flood
+            happens in that particular area
+            ● We will need wildlife data of various regions of india before and after flood/drought
+            ● Create map of various regions and show how the wildlife gets affected by any
+            means suitable
+        </item>
+        <item>We can show how aquatic life of a region gets affected when drought happens, how lake
+            and ponds dry off and all the aquatic life gets extinct
+            ● We will need data of aquatic life data of drought prone areas
+            ● Like wild life just show the after effects of drought on aquatic life of that region
+            ● Find the water bodies of that regions and make the comparisons
+        </item>
+        <item>So this is a bit complex because I am not sure if it is possible to predict it,
+            but we can just show that chances of forest fire increased when the dryness in the air
+            increases
+            ● We will need dataset of air condition of a particular region
+            ● Just highlight the areas which are prone to forest fire
+        </item>
+        <item>Just like water level check by soil quality checker we can help farmers to know the
+            soil of their land better,
+            we can check the quality of soil of area and then with the help of this data we can
+            check the crop best suited for that type of soil
+            ● Finding dataset for this is quite tricky as it is very difficult to find region wise
+            soil composition and quality all
+            we can have is the state wise soil quality so if we are unable to get the data of region
+            just show the crops which are best
+            suited for that particular state
+            ● Don’t make a seperate window for this
+        </item>
+        <item>The main focus of the application, we shall see the previous trends of drought and
+            find the occurrence of next one
+            ➔ Right now we are still searching for various algorithm and datasets, some features
+            which could help are atmospheric pressure,
+            topography, soil moisture, land surface processes, interaction between air, land and
+            ocean
+        </item>
+        <item>We will display heatmaps for nearly all states in India that will indicate most
+            drought-prone areas in India.
+        </item>
+    </array>
+
 </resources>
