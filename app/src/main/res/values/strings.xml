@@ -2,10 +2,13 @@
     <string name="app_name">Drought Protect</string>
     <string name="hint_email">robinkamboj975@gmail.com</string>
     <string name="hint_password">Abcd1!@</string>
-    <string name="register">Register</string>
-    <string name="login">Login</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
     <string name="submit">Submit</string>
     <string name="go_to_register">Not Registered? Please Register First</string>
     <string name="go_to_login">Already A Member? Login</string>
     <string name="made_for_india">Made For India</string>
+    <string name="email_id">Email Id:</string>
+    <string name="password">Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
 </resources>

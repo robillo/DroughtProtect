@@ -2,6 +2,7 @@ package com.robillo.droughtprotect.ui.activities.login_register;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -17,10 +18,10 @@ import butterknife.OnClick;
 public class LoginRegisterActivity extends BaseActivity implements LoginRegisterMvpView {
 
     @BindView(R.id.register)
-    Button registerButton;
+    TextView registerButton;
 
     @BindView(R.id.login)
-    Button loginButton;
+    TextView loginButton;
 
     @BindView(R.id.register_layout)
     LinearLayout registerLayout;
@@ -46,6 +47,9 @@ public class LoginRegisterActivity extends BaseActivity implements LoginRegister
     @BindView(R.id.password_login)
     EditText loginPassword;
 
+    @BindView(R.id.header)
+    TextView header;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,7 +65,16 @@ public class LoginRegisterActivity extends BaseActivity implements LoginRegister
 
     @Override
     public void toggleLoginRegister(int toggle) {
-
+        if(toggle == LoginRegisterMvpView.REGISTER) {
+            loginLayout.setVisibility(View.GONE);
+            registerLayout.setVisibility(View.VISIBLE);
+            header.setText(getString(R.string.register));
+        }
+        else if(toggle == LoginRegisterMvpView.LOGIN){
+            loginLayout.setVisibility(View.VISIBLE);
+            registerLayout.setVisibility(View.GONE);
+            header.setText(getString(R.string.login));
+        }
     }
 
     @OnClick(R.id.register)
@@ -86,12 +99,12 @@ public class LoginRegisterActivity extends BaseActivity implements LoginRegister
 
     @OnClick(R.id.go_to_login)
     public void setGoToLogin() {
-
+        toggleLoginRegister(0);
     }
 
     @OnClick(R.id.go_to_register)
     public void setGoToRegister() {
-
+        toggleLoginRegister(1);
     }
 
     @OnClick(R.id.email_register)
