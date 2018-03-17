@@ -16,9 +16,8 @@
             android:layout_height="?attr/actionBarSize"
             android:textColor="@color/colorTextOne"
             android:layout_weight="1"
-            android:gravity="start"
+            android:gravity="start|center_vertical"
             android:padding="15sp"
-            android:layout_gravity="center_vertical"
             tools:text="Title Text"
             android:textSize="22sp"
             android:id="@+id/text"/>
