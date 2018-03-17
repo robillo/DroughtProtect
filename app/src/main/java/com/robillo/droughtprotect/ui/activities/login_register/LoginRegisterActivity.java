@@ -3,15 +3,18 @@ package com.robillo.droughtprotect.ui.activities.login_register;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.robillo.droughtprotect.R;
+import com.robillo.droughtprotect.ui.activities.BaseActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class LoginRegisterActivity extends AppCompatActivity implements LoginRegisterMvpView {
+public class LoginRegisterActivity extends BaseActivity implements LoginRegisterMvpView {
 
     @BindView(R.id.register)
     Button registerButton;
@@ -20,10 +23,10 @@ public class LoginRegisterActivity extends AppCompatActivity implements LoginReg
     Button loginButton;
 
     @BindView(R.id.register_layout)
-    Button registerLayout;
+    LinearLayout registerLayout;
 
     @BindView(R.id.login_layout)
-    Button loginLayout;
+    LinearLayout loginLayout;
 
     @BindView(R.id.go_to_login)
     TextView goToLogin;
@@ -32,16 +35,16 @@ public class LoginRegisterActivity extends AppCompatActivity implements LoginReg
     TextView goToRegister;
 
     @BindView(R.id.email_register)
-    Button registerEmail;
+    EditText registerEmail;
 
     @BindView(R.id.email_login)
-    Button loginEmail;
+    EditText loginEmail;
 
     @BindView(R.id.password_register)
-    Button registerPassword;
+    EditText registerPassword;
 
     @BindView(R.id.password_login)
-    Button loginPassword;
+    EditText loginPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
