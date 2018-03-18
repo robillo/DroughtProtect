@@ -6,4 +6,83 @@
     android:layout_height="match_parent"
     tools:context="com.robillo.droughtprotect.ui.activities.feature_description.FeatureDescriptionActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:background="@color/black">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/background_image"
+                android:contentDescription="@string/background_image"
+                tools:background="@color/black"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:text="This Is Heading"
+                android:background="#00000000"
+                android:id="@+id/heading"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="@color/colorTextThree"
+                android:layout_marginTop="10sp"
+                tools:ignore="ContentDescription,SmallSp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="@color/colorTextThree"
+                android:layout_marginTop="10sp"
+                tools:ignore="ContentDescription,SmallSp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:textColor="@color/colorTextOne"
+                android:padding="10sp"
+                android:id="@+id/description"
+                tools:text="This is a very very very very very very very very very very very very long description"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="@color/colorTextThree"
+                android:layout_marginTop="10sp"
+                tools:ignore="ContentDescription,SmallSp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="@color/colorTextThree"
+                android:layout_marginTop="10sp"
+                tools:ignore="ContentDescription,SmallSp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -55,7 +55,7 @@ class FeaturesListActivity : BaseActivity(), FeaturesListMvpView {
         featuresList = ArrayList()
 
         for (i in arrayFeatures.indices) {
-            featuresList.add(Feature(arrayFeatures.get(i), arrayDescriptions.get(i), null))
+            featuresList.add(Feature(arrayFeatures.get(i), arrayDescriptions.get(i), arrayUrls.get(i)))
         }
     }
 }

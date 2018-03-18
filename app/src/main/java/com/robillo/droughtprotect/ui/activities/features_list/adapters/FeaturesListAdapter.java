@@ -61,8 +61,8 @@ public class FeaturesListAdapter extends RecyclerView.Adapter<FeaturesListAdapte
             public void onClick(View view) {
                 Intent intent = new Intent(context, FeatureDescriptionActivity.class);
                 intent.putExtra(AppConstants.EXTRA_FEATURE_NAME, features.get(pos).getFeature());
-                intent.putExtra(AppConstants.EXTRA_FEATURE_NAME, features.get(pos).getDescription());
-                intent.putExtra(AppConstants.EXTRA_FEATURE_NAME, features.get(pos).getImageUrl());
+                intent.putExtra(AppConstants.EXTRA_FEATURE_DESCRIPTION, features.get(pos).getDescription());
+                intent.putExtra(AppConstants.EXTRA_FEATURE_URL, features.get(pos).getImageUrl());
                 context.startActivity(intent);
             }
         });

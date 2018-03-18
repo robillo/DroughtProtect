@@ -13,6 +13,7 @@
     <string name="confirm_password">Confirm Password:</string>
     <string name="features_list">Features List</string>
     <string name="information_regarding_feature">Information Regarding Feature</string>
+    <string name="background_image">Background Image</string>
 
     <array name="feature_headers">
         <item>Water Level Checks</item>
@@ -22,80 +23,35 @@
         <item>Forest fire predictor</item>
         <item>Soil quality check</item>
         <item>Drought Trends</item>
-        <item>Interactive HeatMaps</item>
     </array>
 
     <array name="array_urls">
-        <item>Water Level Checks</item>
-        <item>Flood prediction</item>
-        <item>Wildlife Checks</item>
-        <item>Aquatic life Checks</item>
-        <item>Forest fire predictor</item>
-        <item>Soil quality check</item>
-        <item>Drought Trends</item>
-        <item>Interactive HeatMaps</item>
+        <item>https://4.bp.blogspot.com/-xHstKyUltO4/Wq13o58R_QI/AAAAAAAAAh4/6B8NqV-I_c0vpO50-H1mVFp9wTa7RS1cgCLcBGAs/s320/water_leaf_ripples_excitement_55774_1280x900.jpg</item>
+        <item>https://1.bp.blogspot.com/-cA1iO54vW6U/Wq19gDHjrhI/AAAAAAAAAiU/1CqhsFIdqWoJqP5quG2DBny6P63aIWn-wCLcBGAs/s1600/house_china_water_flood_sky_cloudy_62437_1280x900.jpg</item>
+        <item>https://3.bp.blogspot.com/-U8vEJyyuaAM/Wq2INT6ZQII/AAAAAAAAAiw/LzivMTI4d3ExGC8Dz53MjdldPra2bDBbwCLcBGAs/s1600/monkey_muzzle_wildlife_114323_1280x900.jpg</item>
+        <item>https://3.bp.blogspot.com/-Z43IzI_pf-8/Wq2JUiEgJKI/AAAAAAAAAi4/3WzujY83pI8LUH8NccwFmbGs9HPUzZEUACLcBGAs/s1600/ocean_fish_set_underwater_world_51634_1280x900.jpg</item>
+        <item>https://1.bp.blogspot.com/-Rmka9xMnVFs/Wq2Khs_AjVI/AAAAAAAAAjA/lyUaQmMWowwO_5G7gAE0KWw823gx-YM2ACLcBGAs/s320/2aTs5NV.jpg</item>
+        <item>https://2.bp.blogspot.com/-bzGXYyH4g90/Wq2LNf7pUPI/AAAAAAAAAjI/2q2R8AiVA6sUQ7EocPFgGHHdJ10OkXsnQCLcBGAs/s320/texture_soil_sand_dirt_dark_50620_1280x900.jpg</item>
+        <item>https://4.bp.blogspot.com/-U-LyUbj17Kc/Wq2MABPF7WI/AAAAAAAAAjU/R5HQbSwps6syXfrFKiH37rM8gwCpia-cACLcBGAs/s320/wp1950289-soil-wallpapers.jpg</item>
     </array>
 
     <array name="feature_descriptions">
-        <item>By checking the water level of a particular area we can help farmers deciding the best
-            crop suited for their farm
-            ● Datasets required will be of past ground water level of various location which is
-            available easily
-            ● Show the water level with the help of graphs and need not be interactive
-            ● Now from the water level data find the crops which are suitable for that particular
-            ground water level, application should show suggestion of crops best suited for that
-            water level
-            ● If possible create a window in which the get a map of india and when the user zoom
-            into selected areas he can get the water level and the crops suitable for that
-            particular region,
-            else just create the the ground water level graph for regions in which the major farming
-            happens in india,
-            like punjab, deccan plateau and north-east side
+        <item>By checking the water level of a particular area, this application helps farmers deciding the
+            best crop suited for their farm. This application Show the water levels of various areas with the help of
+            informative graphs.
         </item>
-        <item>The application should be able to predict the occurrence of flood by previous data,
-            and flood prediction should be limited to flood prone areas
-            ● Datasets required here will be of past flood data of various regions and water level
-            of water bodies located in the flood prone areas
-            ● Use heatmaps to show flood prone areas
+        <item>This application will predict the occurrence of floods on the basis of previous years\' data.
+            It will also use heatmaps to show flood prone areas, and  will also provide news regarding flood and various other methods to take proper precautions during a flood.
         </item>
-        <item>We can see how the wildlife of a particular area gets affected when a drought or flood
-            happens in that particular area
-            ● We will need wildlife data of various regions of india before and after flood/drought
-            ● Create map of various regions and show how the wildlife gets affected by any
-            means suitable
+        <item>This application will shows us how the wildlife of a particular area gets affected when a drought or flood occurs in that particular area. It will create maps of various regions for the same.
         </item>
-        <item>We can show how aquatic life of a region gets affected when drought happens, how lake
-            and ponds dry off and all the aquatic life gets extinct
-            ● We will need data of aquatic life data of drought prone areas
-            ● Like wild life just show the after effects of drought on aquatic life of that region
-            ● Find the water bodies of that regions and make the comparisons
+        <item>This application will show how aquatic life of a region gets affected when drought occurs, how lakes and ponds dry off and all the aquatic life gets delpleted. It will locate water bodies of that region to identify the affected areas.
         </item>
-        <item>So this is a bit complex because I am not sure if it is possible to predict it,
-            but we can just show that chances of forest fire increased when the dryness in the air
-            increases
-            ● We will need dataset of air condition of a particular region
-            ● Just highlight the areas which are prone to forest fire
+        <item>The Application will show that chances of forest fire increased when the dryness in the air increases. The application will highlight the areas which are prone to forest fire.
         </item>
-        <item>Just like water level check by soil quality checker we can help farmers to know the
-            soil of their land better,
-            we can check the quality of soil of area and then with the help of this data we can
-            check the crop best suited for that type of soil
-            ● Finding dataset for this is quite tricky as it is very difficult to find region wise
-            soil composition and quality all
-            we can have is the state wise soil quality so if we are unable to get the data of region
-            just show the crops which are best
-            suited for that particular state
-            ● Don’t make a seperate window for this
+        <item>By soil quality checker we can help farmers to know the soil of their land better. The application will help check the quality of soil of an area and then with the help of this data we can check the crop best suited for that type of soil.
         </item>
-        <item>The main focus of the application, we shall see the previous trends of drought and
-            find the occurrence of next one
-            ➔ Right now we are still searching for various algorithm and datasets, some features
-            which could help are atmospheric pressure,
-            topography, soil moisture, land surface processes, interaction between air, land and
-            ocean
-        </item>
-        <item>We will display heatmaps for nearly all states in India that will indicate most
-            drought-prone areas in India.
+        <item>The main focus of the application: we shall see the previous trends of drought and find the occurrence of next one, Application will make interactive map of india and use heatmaps to show the occurrence of flood. Application will show some news about the flood affected areas and the measures to minimize the damage
         </item>
     </array>
 
