@@ -13,6 +13,7 @@ import com.robillo.droughtprotect.R
 import com.robillo.droughtprotect.helper.AppConstants
 import com.robillo.droughtprotect.ui.activities.BaseActivity
 import jp.wasabeef.glide.transformations.gpu.BrightnessFilterTransformation
+import kotlinx.android.synthetic.main.activity_feature_description.*
 
 class FeatureDescriptionActivity : BaseActivity(), FeatureDescriptionMvpView {
 
@@ -34,6 +35,12 @@ class FeatureDescriptionActivity : BaseActivity(), FeatureDescriptionMvpView {
     }
 
     override fun setup() {
+
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_arrow_back_white_24dp)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         heading = findViewById(R.id.heading)
         description = findViewById(R.id.description)
         backgroundImage = findViewById(R.id.background_image)
@@ -47,7 +54,7 @@ class FeatureDescriptionActivity : BaseActivity(), FeatureDescriptionMvpView {
 
         Glide.with(this)
                 .load(urlText)
-                .apply(RequestOptions.bitmapTransform(BrightnessFilterTransformation(-0.4f)))
+                .apply(RequestOptions.bitmapTransform(BrightnessFilterTransformation(-0.2f)))
                 .into(backgroundImage)
     }
 }

@@ -1,9 +1,14 @@
 package com.robillo.droughtprotect.ui.activities.splash;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -48,9 +53,22 @@ public class SplashActivity extends BaseActivity implements SplashMvpView {
     public void setUp() {
         ButterKnife.bind(this);
 
-//        Glide.with(this).load(getResources().getDrawable(R.drawable.abcd))
-//                .apply(RequestOptions.bitmapTransform(new BrightnessFilterTransformation(-0.2f)))
-//                .into((ImageView) findViewById(R.id.abcd));
+        Window window = getWindow();
+        View view = window.getDecorView();
+        int flags = view.getSystemUiVisibility();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            flags |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+        }
+        view.setSystemUiVisibility(flags);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            }
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.setStatusBarColor(ContextCompat.getColor(this, R.color.white));
+        }
 
         startCountDown();
 

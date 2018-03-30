@@ -2,8 +2,8 @@
     <string name="app_name">Drought Protect</string>
     <string name="hint_email">robinkamboj975@gmail.com</string>
     <string name="hint_password">Abcd1!@</string>
-    <string name="register">REGISTER</string>
-    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
     <string name="submit">Submit</string>
     <string name="go_to_register">Not Registered? Please Register First</string>
     <string name="go_to_login">Already A Member? Login</string>
@@ -32,9 +32,6 @@
         <item>Water level calculation</item>
         <item>Flood prediction</item>
         <item>Forest fire prone areas</item>
-        <item>Real-time weather forecasting</item>
-        <item>Weather News</item>
-        <item>Public API</item>
     </array>
 
     <array name="array_urls">
@@ -45,10 +42,10 @@
             https://2.bp.blogspot.com/-X-ALtw77J3w/Wr27WQzJQ6I/AAAAAAAAAlQ/odUNcrDiR68gWCP_HkcsztuMFGOjeqajwCK4BGAYYCw/s320/droughtprevention.jpg
         </item>
         <item>
-            https://3.bp.blogspot.com/-_beyTZg1NfI/Wr27ysLdgGI/AAAAAAAAAlY/WI5S6oOuDfssAdt0cgroXzHxbySWSlFUgCK4BGAYYCw/s320/vegetation.jpg
+            https://www.wallpaperup.com/uploads/wallpapers/2013/07/01/112463/1da9d0fe30c3373392deff8b938dd636.jpg
         </item>
         <item>
-            https://4.bp.blogspot.com/-hHdu65k_NnQ/Wr28peM_hoI/AAAAAAAAAls/_wCYItJjh5sq_ba-Ki2ziZgGqq5FwbAXACK4BGAYYCw/s320/soil%2Bwater%2Blevel.jpg
+            https://wallpaperscraft.com/image/water_line_texture_107695_1920x1080.jpg
         </item>
         <item>
             https://4.bp.blogspot.com/-SmfpIChYa2A/Wr3DjiUWNhI/AAAAAAAAAl8/IrNCU2_QOqQILEEVjPLrGwS_QHpKBYGUwCK4BGAYYCw/s320/flood.jpg
@@ -56,54 +53,41 @@
         <item>
             https://2.bp.blogspot.com/-1dOeHIVw3Nk/Wr3DzsKcPjI/AAAAAAAAAmE/F-Hjsnm8R5kaLbQqwogL6bxsLErGTq4MQCK4BGAYYCw/s320/ff.jpg
         </item>
-        <item>
-            https://2.bp.blogspot.com/-ooWBtbOD9yw/Wr3EKY_xUyI/AAAAAAAAAmQ/p8FUlFG7KqIEpN6R-l-zhqvDARh8lYIogCK4BGAYYCw/s320/forecast.jpg
-        </item>
-        <item>
-            https://2.bp.blogspot.com/--V6abVcUYVk/Wr27U8D_haI/AAAAAAAAAlI/Pa_3t5nBVwgjnW5pM0q-6Muyd7ie-BvSgCK4BGAYYCw/s320/droughtpredict.jpg
-        </item>
-        <item>
-            https://3.bp.blogspot.com/--3yLRqHc0ls/Wr3EjU4-IpI/AAAAAAAAAmg/w5W2_GiE99ImXQ2OGtsjg9BoN3VZjAVQQCK4BGAYYCw/s320/public.png
-        </item>
     </array>
 
     <array name="feature_descriptions">
-        <item>By checking the water level of a particular area, this application helps farmers
-            deciding the
-            best crop suited for their farm. This application Show the water levels of various areas
-            with the help of
-            informative graphs.
+
+        <item>
+            The focus of the application: we shall see the previous trends of drought and find the
+            occurrence of next one. Application will make interactive map of India and use heatmaps
+            to show the occurrence of droughts.
         </item>
+
+        <item>The application will enlist the prevention techniques to stray away from contributing
+            to create local droughts
+        </item>
+
+        <item>
+            By checking the water level of an area, this application helps farmers deciding the
+            best crop suited for their farm.
+        </item>
+
+        <item>
+            This application Show the water levels of various areas with the help of informative
+            graphs.
+        </item>
+
         <item>This application will predict the occurrence of floods on the basis of previous
             years\' data.
-            It will also use heatmaps to show flood prone areas, and will also provide news
-            regarding flood and various other methods to take proper precautions during a flood.
         </item>
-        <item>This application will shows us how the wildlife of a particular area gets affected
-            when a drought or flood occurs in that particular area. It will create maps of various
-            regions for the same.
+
+        <item>
+            The Application will show that chances of forest fire increased when the dryness in the
+            air increases. The application will highlight the areas which are prone to forest fire.
         </item>
-        <item>This application will show how aquatic life of a region gets affected when drought
-            occurs, how lakes and ponds dry off and all the aquatic life gets delpleted. It will
-            locate water bodies of that region to identify the affected areas.
-        </item>
-        <item>The Application will show that chances of forest fire increased when the dryness in
-            the air increases. The application will highlight the areas which are prone to forest
-            fire.
-        </item>
-        <item>By soil quality checker we can help farmers to know the soil of their land better. The
-            application will help check the quality of soil of an area and then with the help of
-            this data we can check the crop best suited for that type of soil.
-        </item>
-        <item>The main focus of the application: we shall see the previous trends of drought and
-            find the occurrence of next one, Application will make interactive map of india and use
-            heatmaps to show the occurrence of flood. Application will show some news about the
-            flood affected areas and the measures to minimize the damage
-        </item>
-        <item>temp</item>
-        <item>temp</item>
-        <item>temp</item>
-        <item>temp</item>
     </array>
+    <string name="title_activity_lol">lolActivity</string>
+    <string name="feature_description">Feature Description</string>
+    <string name="back">back</string>
 
 </resources>

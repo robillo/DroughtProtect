@@ -20,11 +20,8 @@ import com.robillo.droughtprotect.ui.activities.feature_description.FeatureDescr
 import com.robillo.droughtprotect.ui.activities.features_list.FeaturesListActivity;
 import com.robillo.droughtprotect.ui.activities.flood_predict.FloodPredictActivity;
 import com.robillo.droughtprotect.ui.activities.forest_fire_prone_areas.ForestFiresActivity;
-import com.robillo.droughtprotect.ui.activities.public_api.PublicApiActivity;
-import com.robillo.droughtprotect.ui.activities.realtime_forecsst.RealTimeForecastActivity;
 import com.robillo.droughtprotect.ui.activities.vegetation_quality.VegetationQualityActivity;
 import com.robillo.droughtprotect.ui.activities.water_level.WaterLevelActivity;
-import com.robillo.droughtprotect.ui.activities.weather_news.WeatherNewsActivity;
 
 import java.util.List;
 
@@ -102,18 +99,6 @@ public class FeaturesListAdapter extends RecyclerView.Adapter<FeaturesListAdapte
                     }
                     case "Forest fire prone areas": {
                         context.startActivity(new Intent(context, ForestFiresActivity.class));
-                        break;
-                    }
-                    case "Real-time weather forecasting": {
-                        context.startActivity(new Intent(context, RealTimeForecastActivity.class));
-                        break;
-                    }
-                    case "Weather News": {
-                        context.startActivity(new Intent(context, WeatherNewsActivity.class));
-                        break;
-                    }
-                    case "Public API": {
-                        context.startActivity(new Intent(context, PublicApiActivity.class));
                         break;
                     }
                 }
