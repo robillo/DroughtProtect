@@ -15,6 +15,7 @@
     <string name="information_regarding_feature">Information Regarding Feature</string>
     <string name="background_image">Background Image</string>
     <string name="abcd">abcd</string>
+    <string name="real_time_weather_forecast">Real-time Weather Forecast</string>
 
     <array name="feature_headers">
         <item>Drought prediction</item>
@@ -23,40 +24,78 @@
         <item>Water level calculation</item>
         <item>Flood prediction</item>
         <item>Forest fire prone areas</item>
-        <item>Realtime weather forecasting</item>
-        <item>Weather news</item>
+        <item>Real-time weather forecasting</item>
+        <item>Weather News</item>
         <item>Public API</item>
-        <item>Drought Trends</item>
     </array>
 
     <array name="array_urls">
-        <item>https://4.bp.blogspot.com/-xHstKyUltO4/Wq13o58R_QI/AAAAAAAAAh4/6B8NqV-I_c0vpO50-H1mVFp9wTa7RS1cgCLcBGAs/s320/water_leaf_ripples_excitement_55774_1280x900.jpg</item>
-        <item>https://1.bp.blogspot.com/-cA1iO54vW6U/Wq19gDHjrhI/AAAAAAAAAiU/1CqhsFIdqWoJqP5quG2DBny6P63aIWn-wCLcBGAs/s1600/house_china_water_flood_sky_cloudy_62437_1280x900.jpg</item>
-        <item>https://3.bp.blogspot.com/-U8vEJyyuaAM/Wq2INT6ZQII/AAAAAAAAAiw/LzivMTI4d3ExGC8Dz53MjdldPra2bDBbwCLcBGAs/s1600/monkey_muzzle_wildlife_114323_1280x900.jpg</item>
-        <item>https://3.bp.blogspot.com/-Z43IzI_pf-8/Wq2JUiEgJKI/AAAAAAAAAi4/3WzujY83pI8LUH8NccwFmbGs9HPUzZEUACLcBGAs/s1600/ocean_fish_set_underwater_world_51634_1280x900.jpg</item>
-        <item>https://1.bp.blogspot.com/-Rmka9xMnVFs/Wq2Khs_AjVI/AAAAAAAAAjA/lyUaQmMWowwO_5G7gAE0KWw823gx-YM2ACLcBGAs/s320/2aTs5NV.jpg</item>
-        <item>https://2.bp.blogspot.com/-bzGXYyH4g90/Wq2LNf7pUPI/AAAAAAAAAjI/2q2R8AiVA6sUQ7EocPFgGHHdJ10OkXsnQCLcBGAs/s320/texture_soil_sand_dirt_dark_50620_1280x900.jpg</item>
-        <item>https://4.bp.blogspot.com/-U-LyUbj17Kc/Wq2MABPF7WI/AAAAAAAAAjU/R5HQbSwps6syXfrFKiH37rM8gwCpia-cACLcBGAs/s320/wp1950289-soil-wallpapers.jpg</item>
+        <item>
+            https://2.bp.blogspot.com/--V6abVcUYVk/Wr27U8D_haI/AAAAAAAAAlI/Pa_3t5nBVwgjnW5pM0q-6Muyd7ie-BvSgCK4BGAYYCw/s320/droughtpredict.jpg
+        </item>
+        <item>
+            https://2.bp.blogspot.com/-X-ALtw77J3w/Wr27WQzJQ6I/AAAAAAAAAlQ/odUNcrDiR68gWCP_HkcsztuMFGOjeqajwCK4BGAYYCw/s320/droughtprevention.jpg
+        </item>
+        <item>
+            https://3.bp.blogspot.com/-_beyTZg1NfI/Wr27ysLdgGI/AAAAAAAAAlY/WI5S6oOuDfssAdt0cgroXzHxbySWSlFUgCK4BGAYYCw/s320/vegetation.jpg
+        </item>
+        <item>
+            https://4.bp.blogspot.com/-hHdu65k_NnQ/Wr28peM_hoI/AAAAAAAAAls/_wCYItJjh5sq_ba-Ki2ziZgGqq5FwbAXACK4BGAYYCw/s320/soil%2Bwater%2Blevel.jpg
+        </item>
+        <item>
+            https://4.bp.blogspot.com/-SmfpIChYa2A/Wr3DjiUWNhI/AAAAAAAAAl8/IrNCU2_QOqQILEEVjPLrGwS_QHpKBYGUwCK4BGAYYCw/s320/flood.jpg
+        </item>
+        <item>
+            https://2.bp.blogspot.com/-1dOeHIVw3Nk/Wr3DzsKcPjI/AAAAAAAAAmE/F-Hjsnm8R5kaLbQqwogL6bxsLErGTq4MQCK4BGAYYCw/s320/ff.jpg
+        </item>
+        <item>
+            https://2.bp.blogspot.com/-ooWBtbOD9yw/Wr3EKY_xUyI/AAAAAAAAAmQ/p8FUlFG7KqIEpN6R-l-zhqvDARh8lYIogCK4BGAYYCw/s320/forecast.jpg
+        </item>
+        <item>
+            https://2.bp.blogspot.com/--V6abVcUYVk/Wr27U8D_haI/AAAAAAAAAlI/Pa_3t5nBVwgjnW5pM0q-6Muyd7ie-BvSgCK4BGAYYCw/s320/droughtpredict.jpg
+        </item>
+        <item>
+            https://3.bp.blogspot.com/--3yLRqHc0ls/Wr3EjU4-IpI/AAAAAAAAAmg/w5W2_GiE99ImXQ2OGtsjg9BoN3VZjAVQQCK4BGAYYCw/s320/public.png
+        </item>
     </array>
 
     <array name="feature_descriptions">
-        <item>By checking the water level of a particular area, this application helps farmers deciding the
-            best crop suited for their farm. This application Show the water levels of various areas with the help of
+        <item>By checking the water level of a particular area, this application helps farmers
+            deciding the
+            best crop suited for their farm. This application Show the water levels of various areas
+            with the help of
             informative graphs.
         </item>
-        <item>This application will predict the occurrence of floods on the basis of previous years\' data.
-            It will also use heatmaps to show flood prone areas, and  will also provide news regarding flood and various other methods to take proper precautions during a flood.
+        <item>This application will predict the occurrence of floods on the basis of previous
+            years\' data.
+            It will also use heatmaps to show flood prone areas, and will also provide news
+            regarding flood and various other methods to take proper precautions during a flood.
         </item>
-        <item>This application will shows us how the wildlife of a particular area gets affected when a drought or flood occurs in that particular area. It will create maps of various regions for the same.
+        <item>This application will shows us how the wildlife of a particular area gets affected
+            when a drought or flood occurs in that particular area. It will create maps of various
+            regions for the same.
         </item>
-        <item>This application will show how aquatic life of a region gets affected when drought occurs, how lakes and ponds dry off and all the aquatic life gets delpleted. It will locate water bodies of that region to identify the affected areas.
+        <item>This application will show how aquatic life of a region gets affected when drought
+            occurs, how lakes and ponds dry off and all the aquatic life gets delpleted. It will
+            locate water bodies of that region to identify the affected areas.
         </item>
-        <item>The Application will show that chances of forest fire increased when the dryness in the air increases. The application will highlight the areas which are prone to forest fire.
+        <item>The Application will show that chances of forest fire increased when the dryness in
+            the air increases. The application will highlight the areas which are prone to forest
+            fire.
         </item>
-        <item>By soil quality checker we can help farmers to know the soil of their land better. The application will help check the quality of soil of an area and then with the help of this data we can check the crop best suited for that type of soil.
+        <item>By soil quality checker we can help farmers to know the soil of their land better. The
+            application will help check the quality of soil of an area and then with the help of
+            this data we can check the crop best suited for that type of soil.
         </item>
-        <item>The main focus of the application: we shall see the previous trends of drought and find the occurrence of next one, Application will make interactive map of india and use heatmaps to show the occurrence of flood. Application will show some news about the flood affected areas and the measures to minimize the damage
+        <item>The main focus of the application: we shall see the previous trends of drought and
+            find the occurrence of next one, Application will make interactive map of india and use
+            heatmaps to show the occurrence of flood. Application will show some news about the
+            flood affected areas and the measures to minimize the damage
         </item>
+        <item>temp</item>
+        <item>temp</item>
+        <item>temp</item>
+        <item>temp</item>
     </array>
 
 </resources>

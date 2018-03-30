@@ -1,5 +1,6 @@
 package com.robillo.droughtprotect.ui.activities.login_register;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.robillo.droughtprotect.R;
 import com.robillo.droughtprotect.ui.activities.BaseActivity;
+import com.robillo.droughtprotect.ui.activities.features_list.FeaturesListActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -79,21 +81,16 @@ public class LoginRegisterActivity extends BaseActivity implements LoginRegister
 
     @OnClick(R.id.register)
     public void setRegisterButton() {
-
+        startActivity(new Intent(this, FeaturesListActivity.class));
     }
 
     @OnClick(R.id.login)
     public void setLoginButton() {
-
+        startActivity(new Intent(this, FeaturesListActivity.class));
     }
 
     @OnClick(R.id.register_layout)
     public void setRegisterLayout() {
-
-    }
-
-    @OnClick(R.id.login)
-    public void setLoginLayout() {
 
     }
 

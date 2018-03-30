@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.robillo.droughtprotect.ui.activities.realtime_forecsst.RealTimeForecastActivity"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/header"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:paddingTop="10sp"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="@string/real_time_weather_forecast"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3sp"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="ContentDescription,SmallSp" />
+
+</LinearLayout>

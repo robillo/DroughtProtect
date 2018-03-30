@@ -16,6 +16,7 @@ import com.robillo.droughtprotect.helper.AppConstants;
 import com.robillo.droughtprotect.model.Feature;
 import com.robillo.droughtprotect.ui.activities.feature_description.FeatureDescriptionActivity;
 import com.robillo.droughtprotect.ui.activities.features_list.FeaturesListActivity;
+import com.robillo.droughtprotect.ui.activities.realtime_forecsst.RealTimeForecastActivity;
 
 import java.util.List;
 
@@ -64,6 +65,42 @@ public class FeaturesListAdapter extends RecyclerView.Adapter<FeaturesListAdapte
                 intent.putExtra(AppConstants.EXTRA_FEATURE_DESCRIPTION, features.get(pos).getDescription());
                 intent.putExtra(AppConstants.EXTRA_FEATURE_URL, features.get(pos).getImageUrl());
                 context.startActivity(intent);
+            }
+        });
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switch (features.get(pos).getFeature()) {
+                    case "Drought prediction": {
+                        break;
+                    }
+                    case "Drought prevention techniques": {
+                        break;
+                    }
+                    case "Vegetation quality check": {
+                        break;
+                    }
+                    case "Water level calculation": {
+                        break;
+                    }
+                    case "Flood prediction": {
+                        break;
+                    }
+                    case "Forest fire prone areas": {
+                        break;
+                    }
+                    case "Real-time weather forecasting": {
+                        context.startActivity(new Intent(context, RealTimeForecastActivity.class));
+                        break;
+                    }
+                    case "Weather News": {
+                        break;
+                    }
+                    case "Public API": {
+                        break;
+                    }
+                }
             }
         });
     }

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.robillo.droughtprotect">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".DroughtProtectApplication"
@@ -27,14 +27,26 @@
         <activity
             android:name=".ui.activities.features_list.FeaturesListActivity"
             android:theme="@style/AppTheme.NoActionBar">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".ui.activities.feature_description.FeatureDescriptionActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.activities.feature_description.FeatureDescriptionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activities.realtime_forecsst.RealTimeForecastActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.drought_predict.DroughtPredictActivity" />
+        <activity android:name=".ui.activities.drought_prevent.DroughtPreventActivity" />
+        <activity android:name=".ui.activities.vegetation_quality.VegetationQualityActivity" />
+        <activity android:name=".ui.activities.water_level.WaterLevelActivity" />
+        <activity android:name=".ui.activities.public_api.PublicApiActivity" />
+        <activity android:name=".ui.activities.weather_news.WeatherNewsActivity" />
+        <activity android:name=".ui.activities.flood_predict.FloodPredictActivity" />
+        <activity android:name=".ui.activities.forest_fire_prone_areas.ForestFiresActivity"></activity>
     </application>
 
 </manifest>

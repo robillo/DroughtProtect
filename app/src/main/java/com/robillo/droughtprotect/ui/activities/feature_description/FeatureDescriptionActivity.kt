@@ -47,7 +47,7 @@ class FeatureDescriptionActivity : BaseActivity(), FeatureDescriptionMvpView {
 
         Glide.with(this)
                 .load(urlText)
-                .apply(RequestOptions.bitmapTransform(BrightnessFilterTransformation(-0.2f)))
+                .apply(RequestOptions.bitmapTransform(BrightnessFilterTransformation(-0.4f)))
                 .into(backgroundImage)
     }
 }
