@@ -39,14 +39,22 @@
         <activity
             android:name=".ui.activities.realtime_forecsst.RealTimeForecastActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ui.activities.drought_predict.DroughtPredictActivity" />
-        <activity android:name=".ui.activities.drought_prevent.DroughtPreventActivity" />
-        <activity android:name=".ui.activities.vegetation_quality.VegetationQualityActivity" />
-        <activity android:name=".ui.activities.water_level.WaterLevelActivity" />
-        <activity android:name=".ui.activities.public_api.PublicApiActivity" />
-        <activity android:name=".ui.activities.weather_news.WeatherNewsActivity" />
-        <activity android:name=".ui.activities.flood_predict.FloodPredictActivity" />
-        <activity android:name=".ui.activities.forest_fire_prone_areas.ForestFiresActivity"></activity>
+        <activity android:name=".ui.activities.drought_predict.DroughtPredictActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.drought_prevent.DroughtPreventActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.vegetation_quality.VegetationQualityActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.water_level.WaterLevelActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.public_api.PublicApiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.weather_news.WeatherNewsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.flood_predict.FloodPredictActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.activities.forest_fire_prone_areas.ForestFiresActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

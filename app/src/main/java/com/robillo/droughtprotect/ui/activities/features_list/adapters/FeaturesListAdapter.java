@@ -14,9 +14,17 @@ import android.widget.TextView;
 import com.robillo.droughtprotect.R;
 import com.robillo.droughtprotect.helper.AppConstants;
 import com.robillo.droughtprotect.model.Feature;
+import com.robillo.droughtprotect.ui.activities.drought_predict.DroughtPredictActivity;
+import com.robillo.droughtprotect.ui.activities.drought_prevent.DroughtPreventActivity;
 import com.robillo.droughtprotect.ui.activities.feature_description.FeatureDescriptionActivity;
 import com.robillo.droughtprotect.ui.activities.features_list.FeaturesListActivity;
+import com.robillo.droughtprotect.ui.activities.flood_predict.FloodPredictActivity;
+import com.robillo.droughtprotect.ui.activities.forest_fire_prone_areas.ForestFiresActivity;
+import com.robillo.droughtprotect.ui.activities.public_api.PublicApiActivity;
 import com.robillo.droughtprotect.ui.activities.realtime_forecsst.RealTimeForecastActivity;
+import com.robillo.droughtprotect.ui.activities.vegetation_quality.VegetationQualityActivity;
+import com.robillo.droughtprotect.ui.activities.water_level.WaterLevelActivity;
+import com.robillo.droughtprotect.ui.activities.weather_news.WeatherNewsActivity;
 
 import java.util.List;
 
@@ -73,21 +81,27 @@ public class FeaturesListAdapter extends RecyclerView.Adapter<FeaturesListAdapte
             public void onClick(View view) {
                 switch (features.get(pos).getFeature()) {
                     case "Drought prediction": {
+                        context.startActivity(new Intent(context, DroughtPredictActivity.class));
                         break;
                     }
                     case "Drought prevention techniques": {
+                        context.startActivity(new Intent(context, DroughtPreventActivity.class));
                         break;
                     }
                     case "Vegetation quality check": {
+                        context.startActivity(new Intent(context, VegetationQualityActivity.class));
                         break;
                     }
                     case "Water level calculation": {
+                        context.startActivity(new Intent(context, WaterLevelActivity.class));
                         break;
                     }
                     case "Flood prediction": {
+                        context.startActivity(new Intent(context, FloodPredictActivity.class));
                         break;
                     }
                     case "Forest fire prone areas": {
+                        context.startActivity(new Intent(context, ForestFiresActivity.class));
                         break;
                     }
                     case "Real-time weather forecasting": {
@@ -95,9 +109,11 @@ public class FeaturesListAdapter extends RecyclerView.Adapter<FeaturesListAdapte
                         break;
                     }
                     case "Weather News": {
+                        context.startActivity(new Intent(context, WeatherNewsActivity.class));
                         break;
                     }
                     case "Public API": {
+                        context.startActivity(new Intent(context, PublicApiActivity.class));
                         break;
                     }
                 }

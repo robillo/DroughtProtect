@@ -16,6 +16,14 @@
     <string name="background_image">Background Image</string>
     <string name="abcd">abcd</string>
     <string name="real_time_weather_forecast">Real-time Weather Forecast</string>
+    <string name="drought_prediction">Drought Prediction</string>
+    <string name="drought_prevention">Drought Prevention</string>
+    <string name="flood_prediction">Flood Prediction</string>
+    <string name="forest_fire_prone_areas">Forest Fire Prone Areas</string>
+    <string name="public_api">Public API</string>
+    <string name="vegetation_quality">Vegetation Quality</string>
+    <string name="water_level_on_land">Water Level On Land</string>
+    <string name="latest_weather_news">Latest Weather News</string>
 
     <array name="feature_headers">
         <item>Drought prediction</item>

@@ -4,6 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.robillo.droughtprotect.ui.activities.forest_fire_prone_areas.ForestFiresActivity">
+    tools:context="com.robillo.droughtprotect.ui.activities.forest_fire_prone_areas.ForestFiresActivity"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/header"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:paddingTop="10sp"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="@string/forest_fire_prone_areas"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3sp"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="ContentDescription,SmallSp" />
 
 </LinearLayout>

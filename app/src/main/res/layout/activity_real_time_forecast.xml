@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.robillo.droughtprotect.ui.activities.realtime_forecsst.RealTimeForecastActivity"
-    tools:ignore="UseCompoundDrawables">
+    tools:ignore="UseCompoundDrawables"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
