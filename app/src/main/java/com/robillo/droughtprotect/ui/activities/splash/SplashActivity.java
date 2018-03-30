@@ -11,8 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.robillo.droughtprotect.R;
 import com.robillo.droughtprotect.ui.activities.BaseActivity;
+import jp.wasabeef.glide.transformations.gpu.BrightnessFilterTransformation;
 import com.robillo.droughtprotect.ui.activities.login_register.LoginRegisterActivity;
 
 import butterknife.BindView;
@@ -45,6 +47,10 @@ public class SplashActivity extends BaseActivity implements SplashMvpView {
     @Override
     public void setUp() {
         ButterKnife.bind(this);
+
+//        Glide.with(this).load(getResources().getDrawable(R.drawable.abcd))
+//                .apply(RequestOptions.bitmapTransform(new BrightnessFilterTransformation(-0.2f)))
+//                .into((ImageView) findViewById(R.id.abcd));
 
         startCountDown();
 

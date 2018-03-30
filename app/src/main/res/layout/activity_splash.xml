@@ -1,49 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.robillo.droughtprotect.ui.activities.splash.SplashActivity"
-    android:background="@drawable/gradient">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.robillo.droughtprotect.ui.activities.splash.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/abcd"
+        android:contentDescription="@string/abcd"
+        android:src="@drawable/abcd"
+        android:scaleType="centerCrop"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0sp"
-        android:layout_weight="1"
-        android:id="@+id/ll_one">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00000000">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10sp"
-            android:layout_gravity="bottom"
-            android:scaleType="centerInside"
-            android:text="@string/app_name"
-            android:id="@+id/upper"
-            android:gravity="center_horizontal"
-            android:textColor="@color/white"
-            android:textSize="45sp"/>
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:id="@+id/ll_one">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_gravity="bottom"
+                android:scaleType="centerInside"
+                android:text="@string/app_name"
+                android:id="@+id/upper"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="45sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:id="@+id/ll_two">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/made_for_india"
+                android:id="@+id/lower"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="35sp"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0sp"
-        android:layout_weight="1"
-        android:id="@+id/ll_two">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/made_for_india"
-            android:id="@+id/lower"
-            android:gravity="center_horizontal"
-            android:textColor="@color/white"
-            android:textSize="35sp"/>
+</FrameLayout>
 
-    </LinearLayout>
-
-</LinearLayout>

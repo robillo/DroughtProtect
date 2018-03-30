@@ -8,7 +8,6 @@ import android.widget.TextView
 import butterknife.BindView
 import butterknife.ButterKnife
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.robillo.droughtprotect.R
 import com.robillo.droughtprotect.helper.AppConstants

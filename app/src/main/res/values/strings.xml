@@ -14,14 +14,18 @@
     <string name="features_list">Features List</string>
     <string name="information_regarding_feature">Information Regarding Feature</string>
     <string name="background_image">Background Image</string>
+    <string name="abcd">abcd</string>
 
     <array name="feature_headers">
-        <item>Water Level Checks</item>
+        <item>Drought prediction</item>
+        <item>Drought prevention techniques</item>
+        <item>Vegetation quality check</item>
+        <item>Water level calculation</item>
         <item>Flood prediction</item>
-        <item>Wildlife Checks</item>
-        <item>Aquatic life Checks</item>
-        <item>Forest fire predictor</item>
-        <item>Soil quality check</item>
+        <item>Forest fire prone areas</item>
+        <item>Realtime weather forecasting</item>
+        <item>Weather news</item>
+        <item>Public API</item>
         <item>Drought Trends</item>
     </array>
 
